@@ -1,19 +1,20 @@
 import SwiftUI
-import CoreML // Add this import
+import CoreML // Don't forget this import
 
 struct ContentView: View {
-    // Try to initialize the model (ignore errors for now)
-    let encoderModel = try? coreml_encoder_base_en()
-
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-            // You can optionally display if the model loaded
-            // Text(encoderModel == nil ? "Encoder Failed" : "Encoder Loaded")
+            Text("Testing MNIST Model...")
         }
-        .padding()
+        .onAppear {
+            // Attempt to initialize the model
+            // The class name is derived from the filename
+            let model = try? MNIST_Classifier()
+            if model != nil {
+                print("Successfully loaded MNISTClassifier!")
+            } else {
+                print("Failed to load MNISTClassifier.")
+            }
+        }
     }
 }

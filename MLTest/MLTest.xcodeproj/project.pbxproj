@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7F5C0A72DC4B00F00ED7FD4 /* coreml-decoder-base.en.mlpackage in Resources */ = {isa = PBXBuildFile; fileRef = B7F5C0A52DC4AFF700ED7FD4 /* coreml-decoder-base.en.mlpackage */; };
+		B7F5C0AA2DC4B24100ED7FD4 /* MNIST Classifier.mlmodel in Resources */ = {isa = PBXBuildFile; fileRef = B7F5C0A82DC4B22400ED7FD4 /* MNIST Classifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,7 @@
 		B7F5C07B2DC4AFCC00ED7FD4 /* MLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F5C0882DC4AFCD00ED7FD4 /* MLTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F5C0922DC4AFCD00ED7FD4 /* MLTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7F5C0A52DC4AFF700ED7FD4 /* coreml-decoder-base.en.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = "coreml-decoder-base.en.mlpackage"; sourceTree = "<group>"; };
+		B7F5C0A82DC4B22400ED7FD4 /* MNIST Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MNIST Classifier.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -84,7 +84,7 @@
 				B7F5C08B2DC4AFCD00ED7FD4 /* MLTestTests */,
 				B7F5C0952DC4AFCD00ED7FD4 /* MLTestUITests */,
 				B7F5C07C2DC4AFCC00ED7FD4 /* Products */,
-				B7F5C0A52DC4AFF700ED7FD4 /* coreml-decoder-base.en.mlpackage */,
+				B7F5C0A82DC4B22400ED7FD4 /* MNIST Classifier.mlmodel */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,7 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F5C0A72DC4B00F00ED7FD4 /* coreml-decoder-base.en.mlpackage in Resources */,
+				B7F5C0AA2DC4B24100ED7FD4 /* MNIST Classifier.mlmodel in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
