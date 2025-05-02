@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+I have an issue: {describe problem}.
+
+Let's do rubber-duck debugging. Ask me step-by-step questions about my code and logic to help me find the bug.

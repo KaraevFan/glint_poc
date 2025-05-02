@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+"Create a SwiftUI view for {description}. Follow iOS Human Interface Guidelines, use appropriate SF Symbols, and implement using best practices for SwiftUI. Make the view adaptive for different screen sizes and include Dark Mode support."
